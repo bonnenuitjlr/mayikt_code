@@ -1,0 +1,24 @@
+###服务启动端口号
+server:
+  port: 8300
+###服务名称(服务注 册到eureka名称)  
+spring:
+  application:
+    name: app-mayikt-member
+###服务注册到eureka地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8100/eureka
+      
+####swagger相关配置
+swagger:
+  base-package: com.mayikt.member.service
+  title: SpringCloud2.x构建微服务电商项目-会员服务接口
+  description: 该项目“基于SpringCloud2.x构建微服务电商项目”由每特教育|蚂蚁课堂版权所有，未经过允许的情况下，私自分享视频和源码属于违法行为。
+  version: 1.1
+  terms-of-service-url: www.mayikt.com
+  contact:
+    name: 97后互联网架构师-余胜军
+    email: 644064779@qq.com
+      
